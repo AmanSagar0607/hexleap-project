@@ -56,12 +56,12 @@ const EventListing: React.FC<EventListingProps> = ({
           <h3 className="mt-4 font-bold text-xl">{teamName}</h3>
           <div className="w-full mt-2">
             <div className="flex justify-between">
-              <p className="font-bold">Total Events:</p>
-              <p className={`font-bold text-${teamColor}-500 ml-2`}>Sport:</p>
+              <p>Total Events:</p>
+              <p className={`text-${teamColor}-500 ml-2`}>Sport:</p>
             </div>
             <div className="flex justify-between">
-              <p>{totalEvents}</p>
-              <p>{sport}</p>
+              <p className="font-bold">{totalEvents} Events </p>
+              <p className="font-bold">{sport}</p>
             </div>
           </div>
         </>
