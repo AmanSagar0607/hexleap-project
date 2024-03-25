@@ -30,14 +30,14 @@ const EventListing: React.FC<EventListingProps> = ({
       style={{ margin: '8px', borderRadius: 'none' }}
     >
       {advertisementTitle && advertisementText ? (
-        <div className="relative">
+        <div className="relative border border-white ">
           <Image
             src={teamLogo}
             alt={`${teamName} Logo`}
             width={200}
             height={200}
           />
-          <div className="absolute top-0 right-0 bg-black text-white p-1 rounded-tr-md">
+          <div className="absolute top-0 right-0 bg-black text-white p-1 ">
             Ad
           </div>
           <div className="p-4" style={{ maxWidth: '200px', overflowY: 'auto' }}>
