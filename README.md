@@ -1,1 +1,1 @@
-Hexleap Project 
+Hexleap Project - NextJS Intern 
